@@ -17,8 +17,7 @@ const ThemeToggle = () => {
         checked={false}
         className={
           "bg-gray-800 relative inline-flex h-8 w-14 items-center rounded-full border border-gray-300 focus:outline-none"
-        }
-      ></Switch>
+        }></Switch>
     );
   }
 
@@ -32,8 +31,7 @@ const ThemeToggle = () => {
       onChange={handleSwitchChange}
       className={`${
         theme === "light" ? "bg-gray-800" : "bg-gray-800"
-      } relative inline-flex h-8 w-14 items-center rounded-full border border-gray-300 focus:outline-none`}
-    >
+      } relative inline-flex h-8 w-14 items-center rounded-full border border-gray-300 focus:outline-none`}>
       <span
         className={`${
           theme === "light" ? "translate-x-8" : "translate-x-1"
@@ -44,3 +42,5 @@ const ThemeToggle = () => {
 };
 
 export default ThemeToggle;
+
+//this is ThemeToggle
